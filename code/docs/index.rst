@@ -6,7 +6,7 @@
 Basic ICMP Documentation
 ========================
 
-Please add your names and group ID here by editing `index.rst` in the docs folder.
+Efe Ali Oksuz, Dogukan Ayaz - 31 
 
 
 .. toctree::

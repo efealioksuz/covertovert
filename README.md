@@ -1,4 +1,5 @@
 # COVERTOVERT
+
 Open source implementation of "network" covert channels.
 
 ## Installation
@@ -6,11 +7,13 @@ Open source implementation of "network" covert channels.
 Install docker (and optionally compose V2 plugin - not the docker-compose!) and VSCode on your sytstem. Run the docker containers as non-root users.
 
 To start sender and receiver containers:
+
 ```
 docker compose up -d
 ```
 
 To stop sender and receiver containers:
+
 ```
 docker compose down
 ```
@@ -18,10 +21,13 @@ docker compose down
 Note that, if you orchestrate your containers using docker compose, the containers will have hostnames ("sender" and "receiver") and DNS will be able to resolve them...
 
 In one terminal, attach to the sender container
+
 ```
 docker exec -it sender bash
 ```
+
 In another terminal, attach to the receiver container
+
 ```
 docker exec -it receiver bash
 ```
